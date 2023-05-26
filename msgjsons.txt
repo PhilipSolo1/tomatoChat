@@ -1,0 +1,13 @@
+connect: {"mode":"1", "username":"user"}
+connect confirm: {"mode":"2", "allowed":"true", "uid":"9217"}
+disconnect: {"mode":"3", "uid":"9217"}
+recive msg: {"mode":"4", "msg":""}
+
+modes:
+1 - connect (client only)
+2 - connect confirm (server only)
+3 - disconnect (client only)
+4 - recive msg (server only)
+5 - send msg (client only)
+6 - agreement
+7 - disagreement
